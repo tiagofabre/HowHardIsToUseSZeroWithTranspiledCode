@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/jsynowiec/node-typescript-boilerplate#readme",
   "dependencies": {
+    "express": "^4.15.3",
     "tslib": "~1.7.0"
   }
 }

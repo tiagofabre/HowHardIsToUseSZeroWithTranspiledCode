@@ -1,3 +1,14 @@
+import express from 'express';
+
+
+const app = express();
+
+
+
+app.use(function (req, res) {
+  if(res)
+    req.next()
+})
 /**
  * Returns a Promise<string> that resolves after given time.
  *
